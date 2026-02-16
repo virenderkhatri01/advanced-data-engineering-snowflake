@@ -1,0 +1,10 @@
+#First fork the repository URL from to you local repository#
+--------------------------------------------------------------------------------------------------------------------------------------------------
+git clone https://github.com/virenderkhatri01/advanced-data-engineering-snowflake.git
+
+snow git execute @advanced_data_engineering_snowflake/branches/main/module-1/hamburg_weather/pipeline/data/load_tasty_bytes.sql -D "env='STAGING'" --database=COURSE_REPO --schema=PUBLIC 
+snow git execute @advanced_data_engineering_snowflake/branches/main/module-1/hamburg_weather/pipeline/data/load_tasty_bytes.sql -D "env='PROD'" --database=COURSE_REPO --schema=PUBLIC 
+snow git execute @advanced_data_engineering_snowflake/branches/main/module-1/hamburg_weather/pipeline/objects/ -D "env='STAGING'" --database=COURSE_REPO --schema=PUBLIC 
+snow git execute @advanced_data_engineering_snowflake/branches/main/module-1/hamburg_weather/pipeline/objects/ -D "env='STAGING'" --database=COURSE_REPO --schema=PUBLIC 
+snow git execute @advanced_data_engineering_snowflake/branches/main/module-1/hamburg_weather/pipeline/objects/ -D "env='PROD'" --database=COURSE_REPO --schema=PUBLIC 
+
